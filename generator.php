@@ -53,4 +53,4 @@ $cams = array(
 echo "IDX,X,Y,TYPE,SPEED,DirType,Direction\n";
 
 foreach($cams as $idx => $camera)
-    echo "$idx,{$camera[0]},{$camera[1]},{$camera[2]},{$camera[3]},{$camera[4]},{$camera[5]} // {$camera[6]}\n";
+    echo "99999999-$idx,{$camera[0]},{$camera[1]},{$camera[2]},{$camera[3]},{$camera[4]},{$camera[5]} // {$camera[6]}\n";
